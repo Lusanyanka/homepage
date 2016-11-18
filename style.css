@@ -1,0 +1,102 @@
+@font-face{
+	font-family: aileron-reg;
+	src: url(fonts/Aileron-Regular.otf);
+}
+
+@font-face{
+	font-family: aileron-reg;
+	src: url(fonts/Aileron-SemiBold.otf);
+	font-weight: bold;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: aileron-reg;
+	/*background-color: #0e2335;*/
+	background-image: url(backgrounds128.jpg);
+	color: #e7e7d4;
+	z-index: -2;
+}
+
+#filter{
+	z-index: -1;
+	background-color: black;
+	opacity: 0.6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top: 0;
+}
+
+#major_wrapper{
+	width: 80%;
+	max-width: 1140px;
+	margin: 30px auto 0 auto;
+}
+
+h1{
+	border-bottom: 2px solid #89023e;
+	padding: 6px 1.5em;
+	margin: 0;
+	color: inherit;
+}
+
+.link-column{
+	display: inline-flex;
+	flex-direction: column;
+	width: 320px;
+	margin: 15px;
+	/*background-color: #132c42;*/
+	padding: 4px;
+}
+
+.link-column a{
+	height: 42px;
+	margin-bottom: 8px;
+	display: block;
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+}
+
+.link-column a:hover{
+	background-color: rgba(120,120,120,0.2);
+}
+
+.sub-links{
+	position: relative;
+	top: -10px;
+	padding-left: 64px;
+}
+
+.sub-links a{
+	margin: 0;
+	padding: 0;
+	height: initial;
+}
+
+.link-column h2{
+	margin: 0 0 14px 0;
+	padding: 0 0 0 20px;
+	border-bottom: 2px solid #89023e;
+}
+
+.link-column h3{
+	margin: 6px 4px 0 0;
+	padding: 0;
+	font-size: 16pt;
+}
+
+.link-column a img{
+	width: 42px;
+	height: 42px;
+	float: left;
+	margin: 0 8px;
+}
+
+a:visited, a:hover, a:link, a:active{
+	text-decoration: none;
+	font-size: normal;
+	color: inherit;
+}
